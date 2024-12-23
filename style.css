@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+header {
+  text-align: center;
+  background-color: #3498db;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  
+}
+
+header img {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+
+header > a {
+  font-weight: 500;
+  color: #2c329b;
+  text-decoration: none;
+}
+
+header > a:hover {
+  color: hsl(0, 86%, 64%);
+}
+
+main{
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 40px 0 ;
+}
+
+section#sobre_mim {
+  border-radius: 5px;
+  max-width: 650px;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 20px;
+  border:  solid 1px rgba(99, 99, 99, 0.2);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+section#habilidade {
+  border-radius: 5px;
+  max-width: 650px;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 20px;
+  border:  solid 1px rgba(99, 99, 99, 0.2);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.habilidade_sessao{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.habilidade_sessao_card {
+  width: 250px;
+}
+
+section#portifolio{
+  border-radius: 5px;
+  flex-direction: column;
+  max-width: 650px;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 20px;
+  border:  solid 1px rgba(99, 99, 99, 0.2);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding-bottom: 40px;
+}
+
+#portifolio > h2 {
+  padding: 20px;
+}
+
+#portifolio > a {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: aliceblue;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+#portifolio >a:hover {
+  color: #4b0ba4;
+}
+
+#portifolio > a:focus,
+#portifolio > a:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+footer{
+  text-align: center;
+  background-color: #3498db;
+  padding: 30px;
+  position: relative;
+  bottom: 0;
+}
+
+li a{
+  color: #4b0ba4;
+  
+}
+ul #habilidade_sessao_card{list-style-type: none;}
